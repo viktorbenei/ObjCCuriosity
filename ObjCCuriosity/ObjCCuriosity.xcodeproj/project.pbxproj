@@ -18,6 +18,8 @@
 		BAEEC89E1798527C00D49102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC87B1798527B00D49102 /* Cocoa.framework */; };
 		BAEEC8A61798527C00D49102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC8A41798527C00D49102 /* InfoPlist.strings */; };
 		BAEEC8B31798549800D49102 /* ObjCCuriositySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8B21798549800D49102 /* ObjCCuriositySpec.m */; };
+		BAEEC8B617985B2000D49102 /* DefaultValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8B517985B2000D49102 /* DefaultValues.m */; };
+		BAEEC8B717985B2000D49102 /* DefaultValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8B517985B2000D49102 /* DefaultValues.m */; };
 		EC6C5C31F3CE480E8D684232 /* libPods-ObjCCuriosityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C06FE58BCC94B20B1091BE9 /* libPods-ObjCCuriosityTests.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		BAEEC8A31798527C00D49102 /* ObjCCuriosityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCCuriosityTests-Info.plist"; sourceTree = "<group>"; };
 		BAEEC8A51798527C00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAEEC8B21798549800D49102 /* ObjCCuriositySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCCuriositySpec.m; sourceTree = "<group>"; };
+		BAEEC8B417985B2000D49102 /* DefaultValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultValues.h; sourceTree = "<group>"; };
+		BAEEC8B517985B2000D49102 /* DefaultValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultValues.m; sourceTree = "<group>"; };
 		BE0E3F27E5E242A9B01E8B36 /* Pods-ObjCCuriosityTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCCuriosityTests.xcconfig"; path = "Pods/Pods-ObjCCuriosityTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -126,6 +130,8 @@
 				BAEEC8901798527B00D49102 /* MainMenu.xib */,
 				BAEEC8931798527B00D49102 /* ObjCCuriosity.xcdatamodeld */,
 				BAEEC8821798527B00D49102 /* Supporting Files */,
+				BAEEC8B417985B2000D49102 /* DefaultValues.h */,
+				BAEEC8B517985B2000D49102 /* DefaultValues.m */,
 			);
 			path = ObjCCuriosity;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				BAEEC8881798527B00D49102 /* main.m in Sources */,
 				BAEEC88F1798527B00D49102 /* AppDelegate.m in Sources */,
 				BAEEC8951798527B00D49102 /* ObjCCuriosity.xcdatamodeld in Sources */,
+				BAEEC8B617985B2000D49102 /* DefaultValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEEC8B31798549800D49102 /* ObjCCuriositySpec.m in Sources */,
+				BAEEC8B717985B2000D49102 /* DefaultValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
