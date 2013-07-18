@@ -4,6 +4,12 @@ ObjCCuriosity
 Presenting curious, lol and wtf "features" of Objective C - with Kiwi BDD specs.
 
 
+Where are the 'curious' features?
+=============
+
+Check the source under the ObjCCuriosityTests folder.
+
+
 You don't believe these 'curious' tests? Run them!
 =============
 
