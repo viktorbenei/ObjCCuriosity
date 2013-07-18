@@ -17,6 +17,8 @@
 		BAEEC89D1798527C00D49102 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC89C1798527C00D49102 /* SenTestingKit.framework */; };
 		BAEEC89E1798527C00D49102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC87B1798527B00D49102 /* Cocoa.framework */; };
 		BAEEC8A61798527C00D49102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC8A41798527C00D49102 /* InfoPlist.strings */; };
+		BAEEC8B31798549800D49102 /* ObjCCuriositySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8B21798549800D49102 /* ObjCCuriositySpec.m */; };
+		EC6C5C31F3CE480E8D684232 /* libPods-ObjCCuriosityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C06FE58BCC94B20B1091BE9 /* libPods-ObjCCuriosityTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C06FE58BCC94B20B1091BE9 /* libPods-ObjCCuriosityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCCuriosityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEEC8781798527B00D49102 /* ObjCCuriosity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCCuriosity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEEC87B1798527B00D49102 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BAEEC87E1798527B00D49102 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -48,6 +51,8 @@
 		BAEEC89C1798527C00D49102 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BAEEC8A31798527C00D49102 /* ObjCCuriosityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCCuriosityTests-Info.plist"; sourceTree = "<group>"; };
 		BAEEC8A51798527C00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAEEC8B21798549800D49102 /* ObjCCuriositySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCCuriositySpec.m; sourceTree = "<group>"; };
+		BE0E3F27E5E242A9B01E8B36 /* Pods-ObjCCuriosityTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCCuriosityTests.xcconfig"; path = "Pods/Pods-ObjCCuriosityTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			files = (
 				BAEEC89D1798527C00D49102 /* SenTestingKit.framework in Frameworks */,
 				BAEEC89E1798527C00D49102 /* Cocoa.framework in Frameworks */,
+				EC6C5C31F3CE480E8D684232 /* libPods-ObjCCuriosityTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,7 @@
 				BAEEC8A11798527C00D49102 /* ObjCCuriosityTests */,
 				BAEEC87A1798527B00D49102 /* Frameworks */,
 				BAEEC8791798527B00D49102 /* Products */,
+				BE0E3F27E5E242A9B01E8B36 /* Pods-ObjCCuriosityTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,7 @@
 				BAEEC87B1798527B00D49102 /* Cocoa.framework */,
 				BAEEC89C1798527C00D49102 /* SenTestingKit.framework */,
 				BAEEC87D1798527B00D49102 /* Other Frameworks */,
+				1C06FE58BCC94B20B1091BE9 /* libPods-ObjCCuriosityTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +145,7 @@
 		BAEEC8A11798527C00D49102 /* ObjCCuriosityTests */ = {
 			isa = PBXGroup;
 			children = (
+				BAEEC8B21798549800D49102 /* ObjCCuriositySpec.m */,
 				BAEEC8A21798527C00D49102 /* Supporting Files */,
 			);
 			path = ObjCCuriosityTests;
@@ -175,10 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAEEC8AF1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosityTests" */;
 			buildPhases = (
+				20194BA5ED7842358A0598B6 /* Check Pods Manifest.lock */,
 				BAEEC8961798527C00D49102 /* Sources */,
 				BAEEC8971798527C00D49102 /* Frameworks */,
 				BAEEC8981798527C00D49102 /* Resources */,
 				BAEEC8991798527C00D49102 /* ShellScript */,
+				8E131F2CD2C84D24896D1A78 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +250,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		20194BA5ED7842358A0598B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		8E131F2CD2C84D24896D1A78 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ObjCCuriosityTests-resources.sh\"\n";
+		};
 		BAEEC8991798527C00D49102 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEEC8B31798549800D49102 /* ObjCCuriositySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +443,7 @@
 		};
 		BAEEC8B01798527C00D49102 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0E3F27E5E242A9B01E8B36 /* Pods-ObjCCuriosityTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCCuriosity.app/Contents/MacOS/ObjCCuriosity";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -418,6 +459,7 @@
 		};
 		BAEEC8B11798527C00D49102 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0E3F27E5E242A9B01E8B36 /* Pods-ObjCCuriosityTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCCuriosity.app/Contents/MacOS/ObjCCuriosity";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -450,6 +492,7 @@
 				BAEEC8AE1798527C00D49102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAEEC8AF1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosityTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +501,7 @@
 				BAEEC8B11798527C00D49102 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
