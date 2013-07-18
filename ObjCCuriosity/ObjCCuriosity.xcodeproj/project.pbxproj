@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAEEC87C1798527B00D49102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC87B1798527B00D49102 /* Cocoa.framework */; };
+		BAEEC8861798527B00D49102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC8841798527B00D49102 /* InfoPlist.strings */; };
+		BAEEC8881798527B00D49102 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8871798527B00D49102 /* main.m */; };
+		BAEEC88C1798527B00D49102 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC88A1798527B00D49102 /* Credits.rtf */; };
+		BAEEC88F1798527B00D49102 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC88E1798527B00D49102 /* AppDelegate.m */; };
+		BAEEC8921798527B00D49102 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC8901798527B00D49102 /* MainMenu.xib */; };
+		BAEEC8951798527B00D49102 /* ObjCCuriosity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAEEC8931798527B00D49102 /* ObjCCuriosity.xcdatamodeld */; };
+		BAEEC89D1798527C00D49102 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC89C1798527C00D49102 /* SenTestingKit.framework */; };
+		BAEEC89E1798527C00D49102 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEEC87B1798527B00D49102 /* Cocoa.framework */; };
+		BAEEC8A61798527C00D49102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAEEC8A41798527C00D49102 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAEEC89F1798527C00D49102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAEEC8701798527B00D49102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAEEC8771798527B00D49102;
+			remoteInfo = ObjCCuriosity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAEEC8781798527B00D49102 /* ObjCCuriosity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCCuriosity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEEC87B1798527B00D49102 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BAEEC87E1798527B00D49102 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BAEEC87F1798527B00D49102 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BAEEC8801798527B00D49102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAEEC8831798527B00D49102 /* ObjCCuriosity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCCuriosity-Info.plist"; sourceTree = "<group>"; };
+		BAEEC8851798527B00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAEEC8871798527B00D49102 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAEEC8891798527B00D49102 /* ObjCCuriosity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCCuriosity-Prefix.pch"; sourceTree = "<group>"; };
+		BAEEC88B1798527B00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BAEEC88D1798527B00D49102 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAEEC88E1798527B00D49102 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAEEC8911798527B00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BAEEC8941798527B00D49102 /* ObjCCuriosity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjCCuriosity.xcdatamodel; sourceTree = "<group>"; };
+		BAEEC89B1798527C00D49102 /* ObjCCuriosityTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCCuriosityTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEEC89C1798527C00D49102 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BAEEC8A31798527C00D49102 /* ObjCCuriosityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjCCuriosityTests-Info.plist"; sourceTree = "<group>"; };
+		BAEEC8A51798527C00D49102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAEEC8751798527B00D49102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEC87C1798527B00D49102 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEEC8971798527C00D49102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEC89D1798527C00D49102 /* SenTestingKit.framework in Frameworks */,
+				BAEEC89E1798527C00D49102 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAEEC86F1798527B00D49102 = {
+			isa = PBXGroup;
+			children = (
+				BAEEC8811798527B00D49102 /* ObjCCuriosity */,
+				BAEEC8A11798527C00D49102 /* ObjCCuriosityTests */,
+				BAEEC87A1798527B00D49102 /* Frameworks */,
+				BAEEC8791798527B00D49102 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAEEC8791798527B00D49102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC8781798527B00D49102 /* ObjCCuriosity.app */,
+				BAEEC89B1798527C00D49102 /* ObjCCuriosityTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAEEC87A1798527B00D49102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC87B1798527B00D49102 /* Cocoa.framework */,
+				BAEEC89C1798527C00D49102 /* SenTestingKit.framework */,
+				BAEEC87D1798527B00D49102 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAEEC87D1798527B00D49102 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC87E1798527B00D49102 /* AppKit.framework */,
+				BAEEC87F1798527B00D49102 /* CoreData.framework */,
+				BAEEC8801798527B00D49102 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BAEEC8811798527B00D49102 /* ObjCCuriosity */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC88D1798527B00D49102 /* AppDelegate.h */,
+				BAEEC88E1798527B00D49102 /* AppDelegate.m */,
+				BAEEC8901798527B00D49102 /* MainMenu.xib */,
+				BAEEC8931798527B00D49102 /* ObjCCuriosity.xcdatamodeld */,
+				BAEEC8821798527B00D49102 /* Supporting Files */,
+			);
+			path = ObjCCuriosity;
+			sourceTree = "<group>";
+		};
+		BAEEC8821798527B00D49102 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC8831798527B00D49102 /* ObjCCuriosity-Info.plist */,
+				BAEEC8841798527B00D49102 /* InfoPlist.strings */,
+				BAEEC8871798527B00D49102 /* main.m */,
+				BAEEC8891798527B00D49102 /* ObjCCuriosity-Prefix.pch */,
+				BAEEC88A1798527B00D49102 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAEEC8A11798527C00D49102 /* ObjCCuriosityTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC8A21798527C00D49102 /* Supporting Files */,
+			);
+			path = ObjCCuriosityTests;
+			sourceTree = "<group>";
+		};
+		BAEEC8A21798527C00D49102 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEC8A31798527C00D49102 /* ObjCCuriosityTests-Info.plist */,
+				BAEEC8A41798527C00D49102 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAEEC8771798527B00D49102 /* ObjCCuriosity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEEC8AC1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosity" */;
+			buildPhases = (
+				BAEEC8741798527B00D49102 /* Sources */,
+				BAEEC8751798527B00D49102 /* Frameworks */,
+				BAEEC8761798527B00D49102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCCuriosity;
+			productName = ObjCCuriosity;
+			productReference = BAEEC8781798527B00D49102 /* ObjCCuriosity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAEEC89A1798527C00D49102 /* ObjCCuriosityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEEC8AF1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosityTests" */;
+			buildPhases = (
+				BAEEC8961798527C00D49102 /* Sources */,
+				BAEEC8971798527C00D49102 /* Frameworks */,
+				BAEEC8981798527C00D49102 /* Resources */,
+				BAEEC8991798527C00D49102 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAEEC8A01798527C00D49102 /* PBXTargetDependency */,
+			);
+			name = ObjCCuriosityTests;
+			productName = ObjCCuriosityTests;
+			productReference = BAEEC89B1798527C00D49102 /* ObjCCuriosityTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAEEC8701798527B00D49102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Viktor Benei";
+			};
+			buildConfigurationList = BAEEC8731798527B00D49102 /* Build configuration list for PBXProject "ObjCCuriosity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAEEC86F1798527B00D49102;
+			productRefGroup = BAEEC8791798527B00D49102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAEEC8771798527B00D49102 /* ObjCCuriosity */,
+				BAEEC89A1798527C00D49102 /* ObjCCuriosityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAEEC8761798527B00D49102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEC8861798527B00D49102 /* InfoPlist.strings in Resources */,
+				BAEEC88C1798527B00D49102 /* Credits.rtf in Resources */,
+				BAEEC8921798527B00D49102 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEEC8981798527C00D49102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEC8A61798527C00D49102 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAEEC8991798527C00D49102 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAEEC8741798527B00D49102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEEC8881798527B00D49102 /* main.m in Sources */,
+				BAEEC88F1798527B00D49102 /* AppDelegate.m in Sources */,
+				BAEEC8951798527B00D49102 /* ObjCCuriosity.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAEEC8961798527C00D49102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAEEC8A01798527C00D49102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAEEC8771798527B00D49102 /* ObjCCuriosity */;
+			targetProxy = BAEEC89F1798527C00D49102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAEEC8841798527B00D49102 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEEC8851798527B00D49102 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAEEC88A1798527B00D49102 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEEC88B1798527B00D49102 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BAEEC8901798527B00D49102 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEEC8911798527B00D49102 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BAEEC8A41798527C00D49102 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAEEC8A51798527C00D49102 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAEEC8AA1798527C00D49102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BAEEC8AB1798527C00D49102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAEEC8AD1798527C00D49102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCCuriosity/ObjCCuriosity-Prefix.pch";
+				INFOPLIST_FILE = "ObjCCuriosity/ObjCCuriosity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAEEC8AE1798527C00D49102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCCuriosity/ObjCCuriosity-Prefix.pch";
+				INFOPLIST_FILE = "ObjCCuriosity/ObjCCuriosity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BAEEC8B01798527C00D49102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCCuriosity.app/Contents/MacOS/ObjCCuriosity";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCCuriosity/ObjCCuriosity-Prefix.pch";
+				INFOPLIST_FILE = "ObjCCuriosityTests/ObjCCuriosityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BAEEC8B11798527C00D49102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ObjCCuriosity.app/Contents/MacOS/ObjCCuriosity";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjCCuriosity/ObjCCuriosity-Prefix.pch";
+				INFOPLIST_FILE = "ObjCCuriosityTests/ObjCCuriosityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAEEC8731798527B00D49102 /* Build configuration list for PBXProject "ObjCCuriosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEEC8AA1798527C00D49102 /* Debug */,
+				BAEEC8AB1798527C00D49102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAEEC8AC1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEEC8AD1798527C00D49102 /* Debug */,
+				BAEEC8AE1798527C00D49102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAEEC8AF1798527C00D49102 /* Build configuration list for PBXNativeTarget "ObjCCuriosityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAEEC8B01798527C00D49102 /* Debug */,
+				BAEEC8B11798527C00D49102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BAEEC8931798527B00D49102 /* ObjCCuriosity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BAEEC8941798527B00D49102 /* ObjCCuriosity.xcdatamodel */,
+			);
+			currentVersion = BAEEC8941798527B00D49102 /* ObjCCuriosity.xcdatamodel */;
+			path = ObjCCuriosity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BAEEC8701798527B00D49102 /* Project object */;
+}
